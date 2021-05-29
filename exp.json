@@ -1,0 +1,25 @@
+{
+  "name": "BitMed Wallet",
+  "description": "A multi-currency wallet built on the Rehive platform.",
+  "version": "0.1.0",
+  "slug": "BitMed-Wallet",
+  "privacy": "public",
+  "sdkVersion": "24.0.0",
+  "orientation": "portrait",
+  "primaryColor": "#cccccc",
+  "icon": "./assets/icons/app.png",
+  "loading": {
+    "icon": "./assets/icons/new_loading.png",
+    "hideExponentText": false
+  },
+  "packagerOpts": {
+    "assetExts": ["ttf", "mp4"]
+  },
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.bitmed.sa"
+  },
+  "android": {
+    "package": "com.rehive_wallet"
+  }
+}
